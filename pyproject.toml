@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "template-python-app"
+name = "deep-learning-from-scratch"
 version = "0.1.0"
 description = "Template project for Python application"
 license = "MIT"
 authors = ["nukopy <nukopy@gmail.com>"]
 readme = "README.md"
-# packages = [{include = "template-python-app", from = "app"}]
+# packages = [{include = "deep-learning-from-scratch", from = "app"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"

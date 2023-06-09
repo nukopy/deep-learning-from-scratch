@@ -1,6 +1,6 @@
-# template-python-app
+# deep-learning-from-scratch
 
-![GitHub Actions workflow badge](https://github.com/nukopy/template-python-app/actions/workflows/ci.yml/badge.svg?branch=main)
+![GitHub Actions workflow badge](https://github.com/nukopy/deep-learning-from-scratch/actions/workflows/ci.yml/badge.svg?branch=main)
 
 ## Requirements
 
