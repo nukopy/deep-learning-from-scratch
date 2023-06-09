@@ -2,6 +2,13 @@
 
 ![GitHub Actions workflow badge](https://github.com/nukopy/deep-learning-from-scratch/actions/workflows/ci.yml/badge.svg?branch=main)
 
+Implementation of "ゼロから作る Deep Learning" (O'Reilly Japan, 2016)
+
+## Links
+
+- [github.com/oreilly-japan/deep-learning-from-scratch](https://github.com/oreilly-japan/deep-learning-from-scratch)
+  - The repository for sample code
+
 ## Requirements
 
 - Python 3.11
