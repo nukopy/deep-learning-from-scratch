@@ -2,5 +2,6 @@
 
 set -ex
 
-mypy app
+mypy app tests
 ruff app tests
+black app tests --check

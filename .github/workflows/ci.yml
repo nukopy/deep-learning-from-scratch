@@ -11,27 +11,6 @@ on:
       - "**.md"
 
 jobs:
-  format:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: ["3.11"]
-    steps:
-      - uses: actions/checkout@v3
-      - name: Install poetry
-        run: pipx install poetry
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: ${{ matrix.python-version }}
-          cache: "pip"
-      - name: Install dependencies
-        run: |
-          poetry export --with dev --without-hashes -o requirements.txt
-          pip install -r requirements.txt
-      - name: Format
-        run: bash scripts/format.sh
-
   lint:
     runs-on: ubuntu-latest
     strategy:
